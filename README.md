@@ -11,24 +11,24 @@ Prazo: 11/05/2026 às 23:59, horário de Fortaleza.
 
 Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi ou não tenho certeza.
 
-- vetores, matrizes e produto escalar:
-- média, desvio padrão e correlação:
-- probabilidade condicional e Teorema de Bayes:
-- regressão linear:
-- classificação supervisionada:
-- treino, teste e validação:
-- normalização ou padronização de dados:
-- KNN:
-- árvore de decisão:
-- matriz de confusão:
-- acurácia, precisão, recall e F1-score:
-- overfitting e underfitting:
-- validação cruzada:
-- Random Forest:
-- XGBoost ou boosting:
-- `predict_proba()`:
-- SQL/ETL aplicado a dados:
-- simulação de Monte Carlo:
+- vetores, matrizes e produto escalar: lembro bem
+- média, desvio padrão e correlação: lembro parcialmente
+- probabilidade condicional e Teorema de Bayes: lembro parcialmente
+- regressão linear: lembro parcialmente
+- classificação supervisionada: não lembro
+- treino, teste e validação: lembro bem
+- normalização ou padronização de dados: lembro parcialmente
+- KNN: não lembro
+- árvore de decisão: lembro parcialmente
+- matriz de confusão: lembro bem
+- acurácia, precisão, recall e F1-score: lembro bem
+- overfitting e underfitting: lembro bem
+- validação cruzada: não lembro
+- Random Forest: lembro parcialmente
+- XGBoost ou boosting: não lembro
+- `predict_proba()`: lembro parcialmente
+- SQL/ETL aplicado a dados: 
+- simulação de Monte Carlo: não lembro
 
 ## 2. O que foi trabalhado antes
 
