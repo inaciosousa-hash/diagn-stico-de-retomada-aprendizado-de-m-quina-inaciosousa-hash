@@ -42,7 +42,7 @@ Explique, em 8 a 12 linhas:
   Praticamente todos os tópicos foram abordados em um momento ou outro via atividades passadas pelo professor anterior.
 Raramente os conteúdos eram lecionados em aula pois o horário era dedicado justamente a resolução das atividades
 que eram feitas em grupo que ficavam a cargo de se organizarem e dividirem as tarefas. Os tópicos que marquei com
-"lembro bem" na questão anterior são justamente aqueles com que tive participação direta/solo na pesquisa para a
+"lembro bem" na questão anterior são aqueles com que tive participação direta/solo na pesquisa para a
 resolução da questão. Creio que todos os tópicos com que trabalhei precisei de um auxílio ou outro, pois eu obtinha o
 conhecimento justamente para resolver as atividades passadas. Minha opinião pessoal, mas creio que voltar um pouco para
 a base seja interessante para o andamento da disciplina.
@@ -225,7 +225,7 @@ de somente aumentar o número de iterações máximas permitidas para ver se sol
 Depois de finalizar, copie no Moodle:
 
 ```text
-Repositório:
-Commit final:
-Autoavaliação: nível atual, maior dificuldade e tópico que precisa ser retomado.
+Repositório: https://github.com/inaciosousa-hash/diagn-stico-de-retomada-aprendizado-de-m-quina-inaciosousa-hash
+Commit final: c26fceec3e77eb24c23e7714cb669724ab8fd5cb
+Autoavaliação: Médio-baixo, gostaria de ver algo sobre o XGboost.
 ```
