@@ -150,7 +150,9 @@ Please also refer to the documentation for alternative solver options:
 
 Qual modelo generalizou melhor? Explique usando as métricas e a comparação entre treino e teste.
 
-Resposta:
+Resposta: A Regressão Logística, pois foi a que apresentou a menor diferença de Acurácia entre treino e teste enquanto ambos
+possuem valor alto. A Árvore de Decisão pode apresentar 100% de acurácia no treino, mas tem uma queda relativamente brusca
+no teste, o que não é ideal.
 
 ## 5. Probabilidade e interpretação
 
@@ -161,8 +163,15 @@ Escolha um dos modelos treinados e responda:
 3. Probabilidade alta garante que a previsão está correta? Explique.
 4. Em um problema real, qual seria o risco de confiar cegamente nessa previsão?
 
-Resposta:
-
+Resposta: Modelo escolhido: Regressão Logística
+```
+1. Sim, tem.
+2. Significa que o modelo tem confiança em apontar se determinada amostra pertence a uma dada classe ou não.
+3. Não. Diversos fatores, como calibramento do modelo e qualidade dos dados, podem levar o modelo a prever erroneamente, e,
+mesmo quando a previsão tem eficiência alta, ele nunca deve ser levado como verdade absoluta, apenas como estimativa.
+4. A possibilidade de ocorrer um falso negativo, quando um paciente doente é diagnosticado como não sendo portador da doença,
+o que, devido a negligência, pode ser fatal.
+```
 ## 6. Generalização
 
 Compare treino e teste:
@@ -173,6 +182,12 @@ Compare treino e teste:
 4. O que você precisaria estudar melhor para responder com mais segurança?
 
 Resposta:
+```
+1. Para a Regressão Logística não, mas para a Árvore de Decisão sim.
+2. Não, ambos os modelos apresentam taxa de acurácia elevada tanto em treino quanto teste.
+3. Para a regressão logística seria contornar o limite de iterações permitidas, para a árvore utilizar alguma técnica como poda.
+4. Creio que métodos para calibração de probabilidade.
+```
 
 ## 7. Ponto de dificuldade
 
@@ -183,6 +198,11 @@ Escolha um tópico da lista inicial e escreva:
 3. que tipo de explicação ajudaria: exemplo no quadro, notebook guiado, exercício curto, revisão matemática, visualização ou projeto pequeno.
 
 Resposta:
+```
+XGboost
+Tivemos um trabalho que nos foi dada a opção de usar ou XGBoost ou Random Forest. Acabamos usando Random Forest e por conta disso
+tenho a mínima ideia do que se trata o XGBoost.
+```
 
 ## 8. Uso de IA, se houver
 
@@ -194,6 +214,10 @@ Resumo da resposta:
 Como eu verifiquei:
 O que eu alterei na minha resposta:
 O que ainda não entendi:
+
+Cheguei a rodar no deepseek o erro que obtive com o código falando que passou do limite máximo de iterações com o modelo de regressão.
+A resposta dele foi que precisava normalizar os dados do modelo o que eu não compreendi muito bem, então fui pela solução mais simples
+de somente aumentar o número de iterações máximas permitidas para ver se solucionava.
 ```
 
 ## Submissão no Moodle
