@@ -97,7 +97,53 @@ Se não conseguir terminar tudo, registre até onde chegou e qual erro apareceu.
 Cole aqui os principais resultados do seu código.
 
 ```text
+Nomes das primeiras 5 features: ['mean radius' 'mean texture' 'mean perimeter' 'mean area'
+ 'mean smoothness']
+Classes: ['malignant' 'benign']
+Quantidade de exemplos: 569
+Quantidade de features: 30
 
+--- Regressão Logística ---
+Acurácia treino: 0.9601
+Acurácia teste : 0.9580
+Precisão (teste): 0.9468
+Recall (teste)  : 0.9889
+F1-score (teste): 0.9674
+Matriz de confusão (teste):
+[[48  5]
+ [ 1 89]]
+
+Probabilidades (5 primeiras amostras de teste):
+Amostra 1: classe 0=0.021, classe 1=0.979
+Amostra 2: classe 0=0.998, classe 1=0.002
+Amostra 3: classe 0=0.169, classe 1=0.831
+Amostra 4: classe 0=0.219, classe 1=0.781
+Amostra 5: classe 0=0.196, classe 1=0.804
+
+--- Árvore de Decisão ---
+Acurácia treino: 1.0000
+Acurácia teste : 0.9231
+Precisão (teste): 0.9540
+Recall (teste)  : 0.9222
+F1-score (teste): 0.9379
+Matriz de confusão (teste):
+[[49  4]
+ [ 7 83]]
+
+Probabilidades (5 primeiras amostras de teste):
+Amostra 1: classe 0=0.000, classe 1=1.000
+Amostra 2: classe 0=1.000, classe 1=0.000
+Amostra 3: classe 0=1.000, classe 1=0.000
+Amostra 4: classe 0=0.000, classe 1=1.000
+Amostra 5: classe 0=0.000, classe 1=1.000
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
 ```
 
 ### Interpretação
